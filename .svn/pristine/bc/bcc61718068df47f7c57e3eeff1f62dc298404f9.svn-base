@@ -1,0 +1,94 @@
+﻿html, body, div, ul
+{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    color: #262626;
+    background-color: #f4f4f4;
+    background-image: url('Img/bg.jpg');
+    background-repeat: repeat;
+}
+
+h2
+{
+    color: #389728;
+    font: 36px "Droid Sans" , Arial, sans-serif;
+    text-align: center;
+}
+
+.h2
+{
+    color: #f49020;
+    font: 36px "Droid Sans" , Arial, sans-serif;
+    text-align: center;
+}
+
+#container
+{
+    font-family: "Segoe UI" ,Arial,Helvetica,sans-serif;
+    font-size: 12px;
+    color: #3b3b3b;
+    line-height: 20px;
+    width: 95%;
+    min-height: 450px;
+    margin: 10px 10px 0 15px;
+    padding: 0 10px 35px 10px;
+}
+
+.leftCol
+{
+    float: left;
+    width: 17%;
+    min-height: 700px;
+    padding-left: 2px;
+}
+.rightCol
+{
+    float: right;
+    width: 80%;
+    padding-right: 1px;
+}
+
+.infoPanel
+{
+    background: url("Img/yellowbg.jpg") repeat-x scroll 0 0 #FFF3C8;
+    border: 1px solid #FFE58A;
+    padding: 1px 0 1px 1px;
+    vertical-align: middle;
+    height: 20px;
+    width: 100%;
+    font-size: 15px;
+}
+
+.countryHidden
+{
+    height: 245px;
+    overflow: hidden;
+}
+
+.countryFull
+{
+    height: 100%;
+    overflow: auto;
+}
+
+.bold
+{
+    font-weight: bold;
+    font-size: 12px;
+    text-decoration: none;
+    color: black;
+}
+
+.filterCountry{
+    padding-top: 10px; color: saddlebrown; font-size: 15px;
+    
+}
+
+.filterYear {
+    padding-top: 15px; color: saddlebrown; font-size: 15px;
+}
+
+

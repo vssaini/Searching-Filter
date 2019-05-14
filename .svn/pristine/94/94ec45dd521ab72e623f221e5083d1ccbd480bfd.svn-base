@@ -1,0 +1,26 @@
+﻿/*============================================
+CHANGE CSS DYNAMICALLY
+=============================================*/
+function showAll()
+{
+    $(document).ready(function ()
+    {
+        var div = document.getElementById("country");
+
+        if ($(div).hasClass('hide')) {
+            $(div).animate({ height: $('#childcountry').height() }, 1000).addClass('show');
+            $(div).removeClass('hide');
+            $('#lblShow').text('Reset');
+        } 
+        else
+        {
+            if ($(div).hasClass('show'))
+            {
+                $(div).animate({ height: 245 }, 1000).addClass('hide');
+                $(div).removeClass('show');
+                $('#lblShow').text('Show All');
+            }
+        }
+
+    });
+}

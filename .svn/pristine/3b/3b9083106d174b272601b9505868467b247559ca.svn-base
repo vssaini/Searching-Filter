@@ -1,0 +1,17 @@
+﻿<%@ Control Language="C#" AutoEventWireup="true" CodeFile="Filters.ascx.cs" Inherits="UserControls.Filters" %>
+<div>
+    <div style="padding-top: 10px; color: saddlebrown; font-size: 15px;">
+        <b>Ship Country</b>
+    </div>
+    <div>
+        <asp:CheckBoxList ID="chkCountries" runat="server" RepeatDirection="Vertical" OnDataBound="chkCountries_DataBound" />
+    </div>
+</div>
+<div>
+    <div style="padding-top: 15px; padding-bottom:15px; color: saddlebrown; font-size: 15px;">
+        <b>Year</b>
+    </div>
+    <div>
+        <asp:CheckBoxList ID="chkYears" runat="server" OnDataBound="chkYears_DataBound" />
+    </div>
+</div>

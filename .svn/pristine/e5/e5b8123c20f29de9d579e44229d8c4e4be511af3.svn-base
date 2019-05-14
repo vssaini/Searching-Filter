@@ -1,0 +1,8 @@
+﻿/*============================================
+CHANGE CSS DYNAMICALLY
+=============================================*/
+function showAll() {
+    var hf = document.getElementById("country");
+    hf.className = "countryFull";
+}
+
